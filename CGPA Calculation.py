@@ -1,0 +1,21 @@
+#CGPA Calculation of Diploma in Engineering by Amir Hamja
+print("Enter All Semester GPA")
+firsem=float(input("First semester GPA: "))
+secsem=float(input("Second semester GPA: "))
+thirdsem=float(input("Third semester GPA: "))
+forusem=float(input("Fourth semester GPA: "))
+fivesem=float(input("Five semester GPA: "))
+sixsem=float(input("Six semester GPA: "))
+sevesem=float(input("Seven semester GPA: "))
+eightsem=float(input("Eight semester GPA: "))
+f1=((firsem/100)*(5))
+f2=((secsem/100)*(5))
+f3=((thirdsem/100)*(5))
+f4=((forusem/100)*(10))
+f5=((fivesem/100)*(15))
+f6=((sixsem/100)*(20))
+f7=((sevesem/100)*(25))
+f8=((eightsem/100)*(15))
+cgpa=f1+f2+f3+f4+f5+f6+f7+f8
+print("CGPA: ",'%.2f' %(cgpa))
+ 
